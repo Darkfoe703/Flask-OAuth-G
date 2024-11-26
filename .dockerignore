@@ -1,0 +1,14 @@
+app/__pycache__/
+bin/
+include/
+lib/
+__pycache__/
+share/
+migrations/
+.git/
+
+pyvenv.cfg
+.flaskenv
+.gitignore
+.dockerignore
+.env
