@@ -5,7 +5,7 @@ from flask_dance.consumer import oauth2
 from config import Config
 
 
-# Solo para entornos de desarrollo
+# Only DEV env
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 
 app = Flask(__name__)
